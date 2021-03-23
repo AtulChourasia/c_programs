@@ -16,7 +16,6 @@ void displayMan(int x,int y)
 void drawCloud(int z,int y)
 {
 		int r=50;
-
 		arc(z,y,45,135,r);
 		arc(z+50,y,45,135,r);
 		arc(z+100,y,45,135,r);
@@ -26,7 +25,6 @@ void drawCloud(int z,int y)
 		arc(z+100,y,135+90,225+90,r);
 		arc(z+100,y,315,45,r);
 }
-
 
 void main()
 {
