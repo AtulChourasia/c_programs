@@ -27,7 +27,7 @@ char * replaceWord(const char * str,const char * oldWord, const char * newWord){
     while(*str){
         if(strstr(str,oldWord)==str){
             strcpy(&resultString[i],newWord);
-            i+= newWordLength;
+            i+=newWordLength;
             str += oldWordLength;
         }
         else{
@@ -62,7 +62,7 @@ int main ()
 
     printf("The actual bill genrated is: %s \n",newStr);
 
-    fprintf(ptr2, "%s",newStr);
+    fprintf(ptr2,"%s",newStr);
 
     fclose(ptr);
     fclose(ptr2);
