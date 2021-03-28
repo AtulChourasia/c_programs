@@ -50,6 +50,7 @@ for(i=0;i<500;i++)
         }
  
         //legs
+	    
         if(shouldMove)
         {
             if(d<20)
