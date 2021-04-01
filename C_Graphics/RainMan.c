@@ -37,6 +37,7 @@ void main()
 	displayMan(x,340);
 
 	drawCloud(z,60);
+	    
 	line(0,430,639,430);
 
 for(i=0;i<500;i++)
